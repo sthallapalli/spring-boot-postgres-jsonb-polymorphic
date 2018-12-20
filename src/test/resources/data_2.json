@@ -1,0 +1,41 @@
+{
+  "type" : "PAYROLL",
+  "employee" : {
+    "name" : "Max Mustermann",
+    "birthdate" : "1962-01-16",
+    "address" : {
+      "street" : "Bergring 3",
+      "postalCode" : "10115",
+      "city" : "Frank"
+    }
+  },
+  "employer": {
+    "name": "ABC GmbH",
+    "address": {
+      "street": "Bergring 3",
+      "postalCode": "10115",
+      "city": "Hamburg"
+    }
+  },
+  "entryDate" : "2016-01-01",
+  "exitDate" : "2016-01-01",
+  "socialInsuranceNumber" : "200",
+  "payoutMonth" : "2017-02",
+  "payout" : {
+    "amount" : 1318.97,
+    "currency" : "EUR",
+    "date":"2017-02-03"
+  },
+  "payoutStartDate" : "2017-02-03",
+  "payoutEndDate" : "2017-02-03",
+  "netSalary" : {
+    "amount" : 2930.75,
+    "currency" : "EUR",
+    "date":"2017-02-03"
+  },
+  "bankInformation" : {
+    "bankName" : "Sparkassee",
+    "iban" : "DE24123456780000888834",
+    "bic" : "BYLADXXXXXX"
+  }
+}

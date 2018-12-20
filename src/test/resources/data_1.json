@@ -1,0 +1,54 @@
+{
+  "type" : "BANK_STATEMENT",
+  "accountHolder" : "test111",
+  "bankInformation" : {
+    "bankName" : "First bank of Wiki",
+    "iban" : "DE11711500000000843615",
+    "bic" : "BYLADEM1ROS"
+  },
+  "startDate" : "2017-07-03",
+  "endDate" : "2017-07-03",
+  "residue" : {
+    "amount" : 200011,
+    "currency" : "EUR"
+  },
+  "overdraftLimit" : {
+    "amount" : 5001,
+    "currency" : "EUR"
+  },
+  "returnDebit" : [ {
+    "amount" : 10001,
+    "currency" : "EUR"
+  } ],
+  "incomes" : {
+    "salary" : [ {
+      "amount" : 1000,
+      "currency" : "EUR"
+    } ],
+    "childrenAllowance" : [ {
+      "amount" : 1000,
+      "currency" : "EUR"
+    } ]
+  },
+  "outcomes" : {
+    "rent" : [ {
+      "amount" : -1110,
+      "currency" : "EUR",
+      "date" : "2017-07-03"
+    } ],
+    "debtCollection" : [ {
+      "amount" : -300,
+      "currency" : "EUR",
+      "date" : "2017-07-03"
+    }, {
+      "amount" : -300,
+      "currency" : "EUR",
+      "date" : "2017-06-02"
+    } ],
+    "mortgage" : [{
+        "amount": -15.43,
+        "currency": "EUR",
+        "date": "2017-07-03"
+      }]
+  }
+}

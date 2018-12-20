@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: document
+  datasource:
+    url: jdbc:tc:postgresql:10.4://localhost/document
+    username: sa
+    password: sa
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        use_sql_comments: true
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    generate-ddl: true
+  flyway:
+    enabled: true
+  security:
+    basic:
+      enabled: false
